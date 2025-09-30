@@ -1,10 +1,10 @@
-class hero:
+class hero: # template
     pass
 
 hero1 = hero()
 hero2 = hero()
 
-hero1.nama = "asmodeus"
+hero1.nama = "asmodeus" #object
 hero1.umur = 12
 
 hero2.nama = "beelzebub"
