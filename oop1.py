@@ -14,3 +14,8 @@ print(hero1.__dict__)
 print(hero2.__dict__)
 print(hero1)
 print(hero2)
+
+seluruh = hero1.nama + " " + hero2.nama
+umur_seluruh = hero1.umur + hero2.umur
+print(seluruh)
+print(umur_seluruh)
