@@ -27,6 +27,9 @@ class hero:
     def healthup(self, up):
         self.kesehatan += up
         
+    #methods dengan return
+    def gethealth(self):
+        return self.kesehatan
      
     
 sniper = hero("sniper", 100, 90, 10)
@@ -37,6 +40,6 @@ print(tank.__dict__)
 print("\n\n")
 
 sniper.siapa()
-sniper.healthup(10)
+sniper.healthup(10) #bertambah
 
-print(sniper.kesehatan)
+print(sniper.gethealth())
